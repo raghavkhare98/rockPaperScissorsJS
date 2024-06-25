@@ -4,20 +4,28 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Rock Paper Scissors</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <h1>Rock Paper Scissors game</h1>
-        <p class="human-score"></p>
-        <p class="computer-score"></p>
-        <p class="round-count"></p>
+        <p id="human-score"></p>
+        <p id="computer-score"></p>
+        <p id="round-count"></p>
         <h2>You have the following choices to enter from:</h2>
         <ol>
             <li>Rock</li>
             <li>Paper</li>
             <li>Scissors</li>
         </ol>
-        <p class="computer-choice"></p>
-        <p class="user-choice"></p>
+        <button id="rock-button">Rock</button>
+        <button id="paper-button">Paper</button>
+        <button id="scissors-button">Scissors</button>
+        <div class="results">
+            <p id="computer-choice"></p>
+            <p id="user-choice"></p>
+            <p id="round-result"></p>
+            <p id="game-result"></p>
+        </div>
     </body>
     <script src="gameLogic.js"></script>
 </html>
